@@ -1,0 +1,36 @@
+# Ignore Visual Studio specific files
+.vscode/
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.cache
+*.csproj.user
+
+# Ignore ASP.NET artifacts
+appsettings*.json
+secrets.json
+
+# Ignore package dependencies
+node_modules/
+wwwroot/lib/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore IDE-specific files
+.idea/
+*.sln.ide
+
+# Ignore Blazor WebAssembly artifacts
+wwwroot/_framework/
+wwwroot/css/
+wwwroot/js/
+
+# Ignore publish outputs
+publish/
