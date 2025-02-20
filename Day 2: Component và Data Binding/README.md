@@ -11,7 +11,7 @@
 
 ---
 
-## 1️⃣ Blazor Components Overview
+## 1️⃣ Blazor Components Overview <a id="blazor-components-overview"></a>
 - A Blazor application consists of **components**, which are reusable UI elements.
 - A component is typically a **`.razor` file**, containing UI and logic.
 - Example of a simple Blazor component:
@@ -23,7 +23,7 @@
   }
   ```
 
-## 2️⃣ One-way Binding in Blazor
+## 2️⃣ One-way Binding in Blazor <a id="one-way-binding-in-blazor"></a>
 - One-way binding means **data flows from the code to the UI**, but not in the other direction.
 - Example:
   ```razor
@@ -37,7 +37,7 @@
 
 ---
 
-## 3️⃣ Two-way Binding in Blazor vs React
+## 3️⃣ Two-way Binding in Blazor vs React <a id="two-way-binding-in-blazor-vs-react"></a>
 
 ### **React:**
 - React **does not have built-in two-way binding** like Angular or Blazor.
@@ -66,7 +66,7 @@
 
 ---
 
-## 4️⃣ State Updates in Blazor vs React
+## 4️⃣ State Updates in Blazor vs React <a id="state-updates-in-blazor-vs-react"></a>
 
 ### **React State Updates (Automatic Re-rendering):**
 - When calling `setState()` in React, the UI automatically updates:
@@ -108,7 +108,7 @@
 
 ---
 
-## 5️⃣ Event Handling in Blazor
+## 5️⃣ Event Handling in Blazor <a id="event-handling-in-blazor"></a>
 
 ### **Inside an Event Handler (Auto UI Update)**
 - When a state change happens inside an event handler (e.g., `@onclick`), Blazor **automatically re-renders**:
@@ -140,7 +140,7 @@
 
 ---
 
-## 6️⃣ Three Ways to Write C# Code in Blazor Components
+## 6️⃣ Three Ways to Write C# Code in Blazor Components <a id="three-ways-to-write-c-code-in-blazor-components"></a>
 
 1. **Inline `@code` Block (Most Common)**
    ```razor
