@@ -3,7 +3,7 @@
 ## 📖 Table of Contents
 
 1. [Component Lifecycle in Blazor](#component-lifecycle-in-blazor)
-1. [Dependency Injection in Blazor](#dependency-injection-in-blazor)
+2. [Dependency Injection in Blazor](#dependency-injection-in-blazor)
 
 ---
 
