@@ -1,0 +1,20 @@
+<div class="wrapper-section">
+    <div class="title">Simple Two Way Binding with Callback </div>
+    <div class="content">
+        <div class="section-title">Parent</div>
+        <div>Parent message: @Message </div>
+    </div>
+    <div class="content">
+        <div class="section-title">Child</div>
+        <SimpleTwoWaysBindingWithCallbackChild Message="@Message" OnChangeMessage="OnChangeMessage"/>
+    </div>
+</div>
+
+<style>
+    .wrapper-section{
+        background-color: #2b2f32;
+        border-radius: 8px;
+        padding: 8px;
+        color: white;
+    }
+</style>
