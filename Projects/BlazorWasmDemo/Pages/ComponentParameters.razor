@@ -1,0 +1,19 @@
+@page "/component-parameters"
+
+@using BlazorWasmDemo.Pages.Components.OneWayBinding;
+@using BlazorWasmDemo.Pages.Components.ChangeValueAtChild;
+@using BlazorWasmDemo.Pages.Components.SimpleTwoWaysBindingWithCallback;
+<PageTitle>Component Parameters</PageTitle>
+<h3>ComponentParameters</h3>
+<div class="wrapper">
+    <OneWayBinding />
+    <ChangeValueAtChild />
+    <SimpleTwoWaysBindingWithCallback />
+</div>
+<style>
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 16px;
+    }
+</style>
